@@ -17,9 +17,17 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+
+      
   
       .option {
         padding: 10px 15px;
+        cursor: pointer;
+        &:hover {
+          color: blue;
+          font-size: large;
+          transition: 600ms;
+        }
       }
     }
   }
