@@ -24,9 +24,10 @@
         padding: 10px 15px;
         cursor: pointer;
         &:hover {
-          color: blue;
+          color: grey;
           font-size: large;
           transition: 600ms;
+          transform: translateY(-10px);
         }
       }
     }
